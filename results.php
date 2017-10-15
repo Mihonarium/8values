@@ -56,7 +56,7 @@ $ideologies_json = file_get_contents('ideologies_en.json');
 	$diplomaticLabel = setLabel($peace, $diplArray);
 	$stateLabel = setLabel($liberty, $govtArray);
 	$societyLabel = setLabel($progress, $sctyArray);
-$im = imagecreatefrompng('8values_base.png');
+$im = imagecreatefrompng('base.png');
 $style = imagecolorallocate($im, 0x22, 0x22, 0x22);
 imagefilledrectangle($im, 120, 130, 120+561, 130+80, $style);
 imagefilledrectangle($im, 120, 250, 120+561, 250+80, $style);
