@@ -7,3 +7,4 @@ You can just send "Hello" to https://vk.me/8values.
 * Replace *СТРОКА_ПОДТВЕРЖДЕНИЯ* in the `$confirmation_token`.
 * Replace *ТОКЕН* in the `$token`.
 * Replace *ПУТЬ* in the `$preview_link`.
+* Pick `PATH/index.php` as callback in VK.com callback settings.
