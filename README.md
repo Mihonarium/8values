@@ -6,4 +6,4 @@ You can just send "Hello" to https://vk.me/8values.
 * Read https://vk.com/dev/bizmessages_doc manual.
 * Replace *СТРОКА_ПОДТВЕРЖДЕНИЯ* in the `$confirmation_token`.
 * Replace *ТОКЕН* in the `$token`.
-* Pick `PATH/index.php` as callback in VK.com callback settings.
+* Write path to index.php as callback server addres in VK.com callback settings.
