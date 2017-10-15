@@ -84,11 +84,7 @@ $style = imagecolorallocate($im, 0x9c, 0x27, 0xb0);
 imagefilledrectangle($im, 682-5.6*$progress, 494, 682-2, 494+72, $style);
 
 putenv('GDFONTPATH=' . realpath('.'));
-       // ctx.fillStyle="#222222"
 $style = imagecolorallocate($im, 0x22, 0x22, 0x22);
-        //ctx.font="40px Montserrat"
-        //ctx.textAlign="right"
-        //ctx.fillText(ideology, 780, 87.5)
 		$dimensions = imagettfbbox(30, 0, 'Montserrat-Regular.ttf', $ideology);
 imagettftext($im, 30, 0, 780-abs($dimensions[4] - $dimensions[0]), 87.5, $style, 'Montserrat-Regular', $ideology);
 
