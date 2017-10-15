@@ -17,10 +17,12 @@ function setLabel($val,$ary) {
 	//Не получилось сделать вывод кириллицы, поэтому пока вот так
 $ideologies_json = file_get_contents('ideologies_en.json');
 	$ideologies = json_decode($ideologies_json)->ideologies;
+	/*
 	$econArray = ["Коммунистическая", "Социалистическая", "Социальная", "Центристская", "Рыночная", "Капиталистическая", "Laissez-Faire"];
 	$diplArray = ["Космополитическая", "Интернациональная", "Мирная", "Сбалансированная", "Патриотическая", "Националистическая", "Шовинистская"];
 	$govtArray = ["Анархистская", "Либертарианская", "Либеральная", "Модернистская", "Статистская", "Авторитарная", "Тоталитарная"];
 	$sctyArray = ["Революционная", "Крайне прогрессивная", "Прогрессивная", "Нейтральная", "Традиционная", "Крайне традиционная", "Реакционная"];
+    	*/
     $econArray = ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"];
     $diplArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"];
     $govtArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"];
