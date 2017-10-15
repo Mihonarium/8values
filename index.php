@@ -188,7 +188,7 @@ message_send($_SESSION['user_id'], "Ближайшая идеология: {$ide
 
 Чтобы пройти тест заново, напишите «Заново».", $token);
 
-$preview_link = "http://bot.rtmp.ru/new_bots/8values_image.php?e={$e}&d={$d}&g={$g}&s={$s}";
+$preview_link = "http://ПУТЬ/results.php.php?e={$e}&d={$d}&g={$g}&s={$s}";
 		$tmpfname = tempnam("/var/www/html/new_bots/tmp", "FOO");
 			$content = file_get_contents($preview_link);
 			file_put_contents($tmpfname, $content);
