@@ -1,4 +1,6 @@
 <?php
+include('bot_functions.php');
+include('8values_functions.php');
 
 $confirmation_token = 'СТРОКА_ПОДТВЕРЖДЕНИЯ'; 
 $token = 'ТОКЕН';
